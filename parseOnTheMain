@@ -5,7 +5,7 @@ from model import getData
 
 class Parse:
     def __init__(self):
-        self.driver = webdriver.Chrome('Путь до chromedriver.exe')
+        self.driver = webdriver.Chrome('Путь до chromedriver.exe') # https://chromedriver.chromium.org/
         self.navigate()
 
     def navigate(self):
